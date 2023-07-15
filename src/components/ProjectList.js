@@ -11,6 +11,7 @@ function ProjectList() {
             alt="Assistant Manager Application"
           />
         </a>
+        <a href="https://github.com/Kernel02/Assistant-Manager">GitHub Repository</a>
       </section>
       <section className="SmallApp">
         <div>
