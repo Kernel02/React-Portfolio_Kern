@@ -1,0 +1,87 @@
+* {
+  text-align: center;
+  font-family: baskerville, didot, calibri;
+}
+
+body {
+  background-color: rgb(122, 78, 59);
+  color: beige;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 350px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+  background-color: rgb(190, 122, 74);
+}
+
+header img {
+  margin: 25px;
+  max-width: 250px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: beige;
+}
+
+nav {
+  height: 90px;
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav a {
+  font-size: 45px;
+  text-decoration: none;
+  color: rgb(190, 122, 74);
+  border-color: rgb(122, 78, 59);
+  border-style: double none;
+  border-width: 5px;
+}
+
+nav a:hover {
+  color: rgb(122, 78, 59);
+  border-style: solid none;
+}
+
+#aboutme {
+  background-color: rgb(190, 122, 74);
+}
+
+.SmallApp {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: rgb(190, 122, 74);
+  margin: 25px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: beige;
+}
+
+@media screen and (max-width: 752px) {
+  header,
+  nav a {
+    font-size: 90%;
+  }
+  header img {
+    max-width: 150px;
+  }
+  main section img {
+    max-width: 250px;
+  }
+  .SmallApp img {
+    max-width: 150px;
+  }
+}
