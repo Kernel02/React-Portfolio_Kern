@@ -9,8 +9,6 @@
     
   ## Description
    Jacob Kern's portfolio, built using React.
-
-  ![Screenshot of Portfolio]()
     
   ## License
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
