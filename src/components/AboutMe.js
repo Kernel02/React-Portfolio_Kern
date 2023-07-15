@@ -4,7 +4,12 @@ function AboutMe() {
   return (
     <section id="aboutme">
       <h2>About Me</h2>
-      <p>
+      <img
+        className="cardImgTop"
+        src={require("../images/1D656CF0-4CD9-4147-AEA5-14BB5C4A5A37_1_201_a.jpeg")}
+        alt="Jacob Kern in a blue suit standing next to his wife."
+      />
+      <p className="cardText">
         I'm 21 years old and live in Buckingham, VA. I currently live on and
         work at Virginia Nazarene Retreat Center as a caretaker. I've been in
         the Air Force Reserve since October, 2021 as an aerospace propulsion

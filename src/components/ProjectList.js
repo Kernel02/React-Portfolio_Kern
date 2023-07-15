@@ -4,15 +4,15 @@ function ProjectList() {
   return (
     <main id="main">
       <section>
-        <h2>Application #1</h2>
-        <a href="#">
+        <h2>Assistant Manager</h2>
+        <a href="https://dry-tor-49365.herokuapp.com/">
           <img
-            src="https://placehold.jp/480x270.png"
-            alt="placeholder image, 480 pixels by 270 pixels"
-          />{" "}
+            src={require("../images/Screenshot 2023-07-15 at 17.02.45.png")}
+            alt="Assistant Manager Application"
+          />
         </a>
       </section>
-      <section class="SmallApp">
+      <section className="SmallApp">
         <div>
           <h3>Application #2</h3>
           <a href="#">

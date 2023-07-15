@@ -1,16 +1,27 @@
 import React from "react";
 
-function Nav() {
+function Nav({ handlePageChange }) {
   return (
     <nav>
       <h2>
-        <a href="#aboutme"> About Me</a>
+        <a href="#aboutme" onClick={() => handlePageChange("AboutMe")}>
+          About Me
+        </a>
       </h2>
       <h2>
-        <a href="#main"> Projects </a>
+        <a href="#projects" onClick={() => handlePageChange("Projects")}>
+          Projects
+        </a>
       </h2>
       <h2>
-        <a href="#contactme"> Contact Me</a>
+        <a href="#contactme" onClick={() => handlePageChange("ContactMe")}>
+          Contact Me
+        </a>
+      </h2>
+      <h2>
+        <a href="#resume" onClick={() => handlePageChange("Resume")}>
+          Resume
+        </a>
       </h2>
     </nav>
   );
